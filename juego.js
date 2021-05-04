@@ -146,7 +146,7 @@ function winLose(){
         mens.innerHTML = 'El ganador es el Usuario, ¡¡Felicitaciones!!';
     } else if (resultado == 'piedra' && pickPapel){
         mens.innerHTML = 'El ganador es el Usuario, ¡¡Felicitaciones!!';
-    } else if (resultado == 'piedra' && pickTijera){
+    } else if (resultado == 'papel' && pickTijera){
         mens.innerHTML = 'El ganador es el Usuario, ¡¡Felicitaciones!!';
     } 
 
