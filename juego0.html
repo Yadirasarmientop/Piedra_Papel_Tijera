@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piedra Papel y Tijera</title>
+    <link rel="stylesheet" href="juego.css">
+</head>
+<body>
+    <header> 
+        <h1> JUEGO PIEDRA, PAPEL & TIJERA</h1>
+    </header>
+           
+    <section>
+        
+        <div class="cabecera">
+            <figure id="computador">
+                <img src="PC.png" alt="" class="enfrentamiento">
+                <figcaption>PC</figcaption>
+            </figure>
+            <div id= vs>VS</div>
+            <figure id="usua">
+                <img src="usuario1.png" alt=""class="enfrentamiento">
+                <figcaption>Usuario</figcaption>
+            </figure>
+            
+        </div>
+
+        <div class="opciones">
+            <figure id="piedra">
+                <img src="piedra.png" alt="" class="opcion" >
+                <figcaption>Piedra</figcaption>
+            </figure>
+            <figure id="papel">
+                <img src="papel.png" alt="" class="opcion" >
+                <figcaption>Papel</figcaption>
+            </figure>
+            <figure id="tijera">
+                <img src="tijera.png" alt="" class="opcion" >
+                <figcaption>Tijera</figcaption>
+            </figure>
+            <figure >
+                <img src="" alt="" class="opcion" id="seleccion">
+                <figcaption id = "figc"></figcaption>
+            </figure>
+        </div>
+        <aside>
+            <p id ="mensaje">Eligela opción con la que quieres jugar</p>
+            <button id="botinicio" class="boton" >Iniciar Juego</button>
+            <button id="botfin" class="boton">Jugar de nuevo</button>
+        </aside>
+    </section>
+    <footer>
+        
+    </footer>
+    <script src="juego.js"></script>
+</body>
+</html>
